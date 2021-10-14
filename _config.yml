@@ -5,7 +5,7 @@ description: aspiring infosec professional
 
 baseurl: / #name of GitHub repository
 url:  #custom url to be used instead of GitHub repository
-email: beyer.brian@gmail.com
+email: me@brianb.xyz
 
 
 highlighter: rouge
