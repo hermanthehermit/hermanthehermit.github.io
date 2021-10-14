@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Brian C. Beyer
+description: aspiring infosec professional
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl: /hermanthehermit.github.io #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: #
+email: beyer.brian@gmail.com
 
 
 highlighter: rouge
