@@ -3,8 +3,8 @@
 title: Brian C. Beyer
 description: aspiring infosec professional
 
-baseurl: /hermanthehermit.github.io #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+baseurl: / #name of GitHub repository
+url:  #custom url to be used instead of GitHub repository
 email: beyer.brian@gmail.com
 
 
