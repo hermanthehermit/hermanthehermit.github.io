@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-Brian Beyer is a working fraud specialist and cybersecurity student looking to enter the infosec field.
+Brian Beyer is a working fraud analyst studying Full Stack Development and working toward a career change to the SDE field.
 
 If you're interested in collaborating or would like to discuss anything with me, please feel free to reach out via email or social media.
 
