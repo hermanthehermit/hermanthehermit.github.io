@@ -1,0 +1,75 @@
+#divleft {
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    float: left;
+}
+
+#divright {
+    width: 70%;
+    height: 100vh;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    float: right;
+}
+
+#bio {
+    width: 90%;
+    text-align: center;
+    margin: auto auto auto auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#projectsbubble {
+    width: 85%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+#rightbubble {
+    width: 85%;
+    height: 25%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: aliceblue !important;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#bubblehead {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#biopic {
+    max-width:200px; 
+    border: 4px solid rgb(29, 29, 29);
+}
+
+#smicon {
+    font-size: 5em;
+    display: inline-block;
+    text-align: center;
+    padding: max(0.5em);
+}
+
+.medium-widget-article__title {
+    color:aliceblue !important;
+    padding-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.medium-widget-article__date {
+    color:rgb(66, 66, 66) !important;
+    padding-left: 50px !important;
+    font-family: 'Quicksand', sans-serif;
+}
