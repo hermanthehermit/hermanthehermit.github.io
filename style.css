@@ -30,6 +30,7 @@
     background-color: black;
     color: aliceblue;
     border-radius: 25px;
+    text-align: center;
 }
 
 #rightbubble {
@@ -75,8 +76,13 @@
 }
 
 #projecticon {
-    font-size: 2em;
+    font-size: 3em;
     display: inline-block;
     text-align: center;
     padding: max(0.5em);
+}
+
+#projectcaption {
+    font-size: 1.5em !important;
+    font-family: 'Quicksand', sans-serif;
 }
