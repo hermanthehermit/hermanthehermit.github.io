@@ -94,6 +94,8 @@
     display: inline-block;
     text-align: center;
     padding: max(0.5em);
+    background-color:rgb(66, 66, 66);
+    border-radius: 25px;
 }
 
 #projectcaption {
