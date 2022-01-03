@@ -86,6 +86,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+#medium-widget {
+    text-align: left !important;
+}
+
 #projecticon {
     font-size: 3em;
     display: inline-block;
@@ -95,4 +99,5 @@
 
 #projectcaption {
     font-family: 'Quicksand', sans-serif;
+    font-size: 1em !important;
 }
