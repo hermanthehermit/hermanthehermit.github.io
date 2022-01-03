@@ -33,6 +33,17 @@
     text-align: center;
 }
 
+#blogbubble {
+    width: 85%;
+    height: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
 #rightbubble {
     width: 85%;
     height: 25%;
