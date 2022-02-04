@@ -1,7 +1,7 @@
 <?PHP 
 
 $user     = 'bbeyer'; 
-$key      = 'b0cb4aaf8ae49ba23e32e452eacc5750';
+$key      = 'abb8ec92199fb817d03d2bc2dacb0cbd';
 	
 // Get information about the last played albums.
 $endpoint = 'https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=' . $user . '&api_key=' . $key . '&period=7day&limit=12&format=json';
