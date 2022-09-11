@@ -35,7 +35,7 @@ footer {
   }
 
   .about-img {
-    max-width: 250px;
+    width: 250px;
     height: auto;
     border-radius: 8px;
     border: 1px solid #ddd;
