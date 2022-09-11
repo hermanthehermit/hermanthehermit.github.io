@@ -24,3 +24,7 @@ footer {
     border-radius: 0;
   }
   
+  .fa-brands {
+    font-size: 2em;
+    margin-top: -4px;
+  }
