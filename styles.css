@@ -1,0 +1,26 @@
+.navpicture {
+    max-width: 50px;
+}
+
+.nameheader {
+    margin-top: 20px;
+}
+
+.footer {
+    color: rgba(0, 0, 0, 0.55);
+    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.9);
+}
+
+footer {
+    background-color: rgb(248, 249, 250);
+    color: white;
+    padding: 15px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  

@@ -1,64 +1,83 @@
 <!DOCTYPE html>
-    <head>
-        <link rel="stylesheet" href="http://www.brianb.xyz/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/fa66f56e74.js" crossorigin="anonymous"></script>
-        <meta http-equiv="Cache-Control" content="no-store" />
-    </head>
-    <body style="background-color: black;">
-        <div id="divleft">
-            <div id="bio">
-                <h1>Brian C. B.</h1>
-                <h3>fraud analyst & aspiring software developer</h3>
-            </div>
-            <div id="bio">
-                <img src="http://www.brianb.xyz/bio.jpg" id="biopic" alt="Selfie of Brian in front of Puget Sound.">
-                <p>
-                    Hi, I'm Brian. I'm a fraud analyst for a mobile games company who aspires to change careers into full-stack development. 
-                    I currently study using a variety of online resources and hope to build a portfolio from here. 
-                </p>
-                <p>
-                    Please follow here or on social media for more as I continue to learn and grow. 
-                    I'm always open to working with others, so please feel free to reach out if you're interested in collaboration.
-                </p>
-            </div>
+<html lang="en">
+<head>
+  <title>Brian C. Beyer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      /*background-color: #f1f1f1;*/
+      height: 100%;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+  <body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="navpicture" src="media/InitialsLogoTrim.png" alt="circle logo containing the name Brian Beyer"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+          </ul>
         </div>
-        <div id="divright">
-            <div id="projectsbubble">
-                <h2 id="bubblehead">Projects</h2>
-                <div id="projecticon">
-                    <a href="https://github.com/hermanthehermit/hermanthehermit.github.io" target="_blank">
-                        <i class="fas fa-sitemap"></i>
-                        <h3 id="projectcaption">Bio/Landing Page</h3>
-                    </a>
-                </div>                
-            </div>
-            <div id="blogbubble">
-                <h2 id="bubblehead">Recent Blog Posts</h2>
-                <div id="medium-widget">
-                    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-                    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@briancbeyer","postsPerLine":1,"limit":3,"picture":"none","fields":["publishAt"],"ratio":"landscape"}})</script>
-                </div>
-            </div>
-            <div id="rightbubble">
-                <h2 id="bubblehead">Contact or Follow</h2>
-                <div id="smicon">
-                    <a href="https://twitter.com/brianc_beyer" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                </div>
-                <div id="smicon">
-                    <a href="https://www.instagram.com/bcbeyer/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                </div>                
-                <div id="smicon">
-                    <a href="https://www.linkedin.com/in/brian-beyer-ba540b59/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div id="smicon">
-                    <a href="https://github.com/hermanthehermit" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-                <div id="smicon">
-                    <a href="mailto:me@brianb.xyz?subject=Contact Me"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
+      </div>
+    </nav>
+  
+    <div class="container-fluid text-center">    
+      <div class="row content">
+        <div class="col-sm-8 text-left"> 
+          <h1 class="nameheader">Brian C. Beyer</h1>
+          <p>fraud analyst. aspiring full-stack developer.</p>
+          <hr>
+          <p>I'm a self-taught coder from Kansas who now resides in Seattle, WA.</p>
+          <div id="retainable-rss-embed" data-rss="https://medium.com/feed/@briancbeyer"
+            data-maxcols="6" 
+            data-layout="grid" 
+            data-poststyle="external" 
+            data-readmore="Read on Medium" 
+            data-buttonclass="btn btn-primary" 
+            data-offset="-100">
+          </div>
         </div>
-    </body>
+        <div class="col-sm-4 sidenav">
+          <a class="twitter-timeline" data-width="300" data-height="600" data-theme="dark" href="https://twitter.com/brianc_beyer?ref_src=twsrc%5Etfw">Tweets by brianc_beyer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center mt-auto footer">
+      <p>Footer Text</p>
+    </footer>
+    <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+  </body>
+</html>
